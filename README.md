@@ -123,14 +123,10 @@ La accesibilidad ha sido **tenida en cuenta desde el inicio**, no como un añadi
 Cumplir las **buenas prácticas de accesibilidad** siguiendo las recomendaciones generales de **WCAG**, dentro del alcance de una prueba de tiempo limitado.
 ---
 
-## Enfoque de JavaScript
+## Enfoque
 
 - **Simplicidad** como prioridad
   - Separación clara entre estructura *(HTML)*, presentación *(CSS/SCSS)* y comportamiento *(JS)*
-  
-- **Filtrado en cliente**
-  - Los posts se filtran en cliente por simplicidad
-  - El HTML es funcional incluso sin JavaScript
   
 - **Sin dependencias externas**
   - No se han utilizado librerías externas
@@ -147,4 +143,4 @@ Con más margen, se podrían plantear mejoras como:
 - **Cargar posts dinámicamente** desde una API o archivo JSON
 - **Añadir tests básicos** de accesibilidad
 - **Soporte multilenguaje**
-- **Mejorar experiencia mobile** *(gestión de foco, animaciones avanzadas)*
+- **Mejorar experiencia mobile y desktop** *(gestión de foco, animaciones avanzadas)*
