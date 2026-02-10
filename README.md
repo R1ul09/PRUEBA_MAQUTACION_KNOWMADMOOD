@@ -14,6 +14,7 @@ El objetivo principal ha sido entregar una solución:
 
 ## Vista previa
 
+**[Ver proyecto en vivo](https://r1ul09.github.io/PRUEBA_MAQUTACION_KNOWMADMOOD/)**
 ![Captura de pantalla del proyecto](assets/img/screenshot.png)
 
 ---
