@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba Knowmadmood de Raul Zaldua</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/KnowmadMood.ico">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Knowmadmood</h1>
+
+        <!-- esto es para el menu hamburgesa-->
+        <button class="menu-btn" aria-label="Open navigation menu" aria-expanded="false" aria-controls="main-navigation">☰</button>
+
+        <nav aria-label="User access">
+            <ul>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <aside id="main-navigation" aria-label="Main navigation">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </aside>
+
+    <main id="main-content" class="layout">
+        <h2>Home</h2>
+        <p>Welcome to the home page</p>
+
+        <div class="tags" role="group" aria-label="Filter posts by category">
+            <button aria-pressed="true">All posts</button>
+            <button aria-pressed="false">Art</button>
+            <button aria-pressed="false">Development</button>
+            <button aria-pressed="false">LifeStyle</button>
+            <button aria-pressed="false">Accessories</button>
+        </div>
+
+        <h2>Latest Posts</h2>
+
+        <section class="cards">
+            <article class="card" data-category="art development">
+                <img src="https://picsum.photos/id/60/800/600" alt="Image of a desktop">
+                <h3>Post 1</h3>
+                <div class="tags-list">
+                    <span class="tag">Art</span>
+                    <span class="tag">Development</span>
+                </div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                <button aria-label="Read more about Post 1">Read more</button>
+            </article>
+            <article class="card" data-category="art lifestyle">
+                <img src="https://picsum.photos/id/160/800/600" alt="Image of a phone">
+                <h3>Post 2</h3>
+                <div class="tags-list">
+                    <span class="tag">Art</span>
+                    <span class="tag">Lifestyle</span>
+                </div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                <button aria-label="Read more about Post 2">Read more</button>
+            </article>
+            <article class="card" data-category="development">
+                <img src="https://picsum.photos/id/429/800/600" alt="Image of a raspberry">
+                <h3>Post 3</h3>
+                <div class="tags-list">
+                    <span class="tag">Development</span>
+                </div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                <button aria-label="Read more about Post 3">Read more</button>
+            </article>
+            <article class="card" data-category="accessories">
+                <img src="https://picsum.photos/id/1031/800/600" alt="Image of a skyscraper">
+                <h3>Post 4</h3>
+                <div class="tags-list">
+                    <span class="tag">Accessories</span>
+                </div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                <button aria-label="Read more about Post 4">Read more</button>
+            </article>
+            <article class="card" data-category="art lifestyle">
+                <img src="https://picsum.photos/id/10/800/600" alt="Imagen ilustrativa del post 5">
+                <h3>Post 5</h3>
+                <div class="tags-list">
+                    <span class="tag">Art</span>
+                    <span class="tag">Lifestyle</span>
+                </div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                <button aria-label="Read more about Post 5">Read more</button>
+            </article>
+            <article class="card" data-category="art accessories">
+            <img src="https://picsum.photos/id/237/800/600?grayscale" alt="Image of a dog">
+                <h3>Post 6</h3>
+                <div class="tags-list">
+                    <span class="tag">Art</span>
+                    <span class="tag">Accessories</span>
+                </div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                <button aria-label="Read more about Post 6">Read more</button>
+            </article>
+            <article class="card" data-category="art lifestyle">
+                <img src="https://picsum.photos/id/0/800/600" alt="Image of a laptop">
+                <h3>Post 7</h3>
+                <div class="tags-list">
+                    <span class="tag">Art</span>
+                    <span class="tag">Lifestyle</span>
+                </div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                <button aria-label="Read more about Post 7">Read more</button>
+            </article>
+            <article class="card" data-category="art lifestyle">
+                <img src="https://picsum.photos/id/103/800/600" alt="Image of a man looking at the landscape">
+                <h3>Post 8</h3>
+                <div class="tags-list">
+                    <span class="tag">Art</span>
+                    <span class="tag">Lifestyle</span>
+                </div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                <button aria-label="Read more about Post 8">Read more</button>
+            </article>
+        </section>
+
+    </main>
+
+    <footer aria-label="Footer">
+        <p>&copy; 2026 Knowmadmood</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
